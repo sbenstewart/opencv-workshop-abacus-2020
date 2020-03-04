@@ -8,7 +8,7 @@ iy = -1
 
 def draw_circle(event, x, y, flags, param):
     if event == cv2.EVENT_LBUTTONDOWN:
-            cv2.circle(img, center = (x, y), radius = 25, 
+            cv2.circle(img, center = (x, y), radius = 5, 
                        color = (87, 184, 237), thickness = -1)
     elif event == cv2.EVENT_RBUTTONDOWN:        
             cv2.circle(img, center = (x, y), radius = 10,  
